@@ -1,0 +1,504 @@
+0.0.1
+Running now affects hunger and thirst.
+Players are no longer required to be in a thieve's guild to steal from other players.
+The Markman's bonus range increased (from 2 to 3).
+Chance to parry now affected by shield's weight.
+The Rogue ability Assassination no longer produces bonus damage on miss.
+Platemail leggings now protect feet from damage when running.
+Active weapon abilities consume Stamina, even when parried.
+Reduced the chance of passive weapon abilities, based on Anatomy.
+Non-Player Characters and Creatures now regenerate hits, stamina, and mana based on corresponding attributes.
+Weapons, armor, and shields no longer produce the affect Reflect Physical Damage.
+Runic Abilities on craft and loot modified, removed, enhanced.
+Pugilist evasion bonus now grants partial bonus to weapons.
+The Beastmaster and Summoner follower bonuses now stack.
+Summoner abilities now affect summoned daemons and fire elementals.
+Monk's dispel ability reduced (to 66% from 100%).
+Summoners may summon a maximum of four creatures at a time.
+All weapons require a minimum of 2 stamina to swing, including fists.
+Players now start with 10,000 Essence of Character.
+Spirit Speak now heals hitpoints, as per AOS.
+Players may now increase skillcaps via the Character Overview display.
+Decreasing skillcaps now returns 1/3 of the EoC spent.
+Starting Skills reduced (from 550 to 450).
+Overall Skillcap reduced to 1,000.
+Individual Statcap increased (from 140 to 150).
+Ingot weight increased (from 1 to 5 stones).
+Increased the amount of EoC generated when striking an opponent.
+Hit Lower Attack and Defend now produce results when using ItemID.
+
+0.0.2
+Getting hit no longer reduces stamina.
+Weapon Life, Stamina, and Mana leech abilities now absorb 50% of damage dealt.
+Pack Instinct bonus range increased (from 1 to 3).
+Bows now consume proper stamina on swing.
+Modifications made to stamina-loss while running.
+Warlock is no longer able to leech mana with ranged weapons.
+Stamina regeneration now increases as a player loses hitpoints.
+Increased chance of degrading equipment on death.
+Players no longer lose skillpoints on Knock Out.
+Players are now required to be on an altar to mark recall runes.
+Wooden shields no longer produce empty results on ItemID.
+Server no longer automatically restarts every 24 hours.
+Sever now saves every 30 minutes, as opposed to two hours.
+Items now take up to 28 days to decay.
+
+0.0.3
+Orc Kin Masks no longer reduce karma.
+The Character Overview can now be accessed via context menu.
+Character Overview now displays Knock Out Counts.
+Character Overview no longer displays murders counts.
+Reduced speed of stamina regen with low health.
+Knock-Out Gump now displays KO's.
+Time spent unconscious now based on current KO count.
+Increased chance to degrade equipment on Knockout.
+The door knock context menu no longer appears empty.
+Running now negates stamina regeneration bonuses.
+Players must now rest after running before regaining stamina.
+Cannons now check player distance on firing.
+Minimum jump range increased to two tiles.
+Race Abilities can now be accessed via context menu.
+Players now start with 20,000 Essence of Character
+Each race now has individual stat-caps.
+Level 5 Acrobat Perk now grants +35 dexterity.
+Reduced affect of Magic resist on fire-field.
+Increased fire-field damage.
+Scrolls no longer require mana to use.
+Spells no longer require reagents to cast.
+Reagents now reduce the mana required to cast by 50%
+The Kobold race ability no longer works when targetting self.
+Ophidians, Terathans, and Liches now resist poison.
+Lowered intelligence reduction on werewolves while transformed.
+Increased EOC cost to play the Liche Race.
+
+0.0.4
+Race System Overhaul: New races, new gump, new abilities.
+
+0.0.5
+Weapons and shields can no longer be held by characters in non-human form.
+Each non-human race now does extra melee damage in place of weapons.
+Shapeshifters now do extra melee damage based on body assumed.
+Players now regenerate stamina when running on a mount.
+Elementals now regenerate mana much faster in water-form.
+Reduced base regeneration speed of both mana and stamina.
+Jump stamina requirement now accounts for player weight in relation to capacity.
+Ogres now suffer a -1 jump range penalty.
+Terathans now have a +1 jump range bonus.
+Elementals can now jump on water in liquid form.
+Modifications to how weight affects jumping.
+Reduced amount of weight players can carry, based on Strength.
+Reduced base follower limit to 2.
+
+0.0.6
+Disguise kits now provide a name selection gump.
+Disguise kits now require the forensic evalutation skill.
+Disguised names now appear on objects tampered with (bodies, containers, doors).
+Guards now construct with proper AI_Types.
+Added OnThink() functionality to Backtrolian Guards to provide controllable response time.
+Doors now automatically close after 10 seconds when used by an NPC.
+Cannons now require the armslore skill, with a chance of miss-fire based on skill.
+Cannon base damage reduced, damage to targets near explosion increased.
+
+0.0.7
+The server now displays the Packet ID of incoming connections.
+The Level 5 Acrobat perk (olympian) now provides +40 maximum stamina.
+Certain perks now cause emotes when dodging, or deflecting an attack.
+Players are no longer able to jump while mounted.
+Player bodyweight is no longer accounted for in weight carried.
+Added Medics to accompany the Backtrolian Guard.
+Added Line of Sight check to Backtrolian Guards.
+Backtrolian guards are now guards because I'm tired of writing backtrolian guards..
+Healer AI no longer heals enemy combatants.
+The server will now annoy players if they do not meet client version requirements.
+Liches may now equip staff-type weapons.
+Elementals and Liches are no longer required to eat.
+Liches are no longer required to drink.
+Elementals become thirsty faster than other races.
+NPC's capable of teaching now require copper as payment.
+Sail boat captains now accept copper as payment for travel.
+
+0.0.8
+Jumping down from over a story now damages players.
+Decreased the default wait time to regain consciousness.
+Copper to Gold conversion ratio is now 1 to 1,000.
+Assassination contracts now pay out copper.
+Bank checks now cash out copper coins by default.
+Creatures now have alignments which affect who they attack.
+
+0.0.9
+Creatures attacking due to alignment now appear orange to combatants.
+Adjusted Karma Ranges for each alignment to provide more 'realism'.
+Creatures will no longer attack staff, no matter alignment.
+Anything that lowers stamina now has a chance to reduce hunger and thirst levels.
+Console header text now modifiable in header.txt
+
+0.1.0
+Perks now Validate Equipment on level up to instantly display stat changes.
+Reduced the height players can jump based on strength and dexterity.
+Hunger & Thirst will now reduce mana and stamina if too low.
+Running with 0 thirst or 0 hunger will now damage a player.
+Stamina lost when running now accounts for Hunger and Thirst.
+
+0.1.1
+Guards will now attack creatures based upon both notoriety and alignment.
+Flying carpets may now be commanded at a range of twelve tiles.
+Lowered Individual stat-caps for Humans (now 125 in each category).
+Creatures killed outside a 32-tile radius of a player will no longer leave corpses.
+Flying Carpets will now stop once outside a 12 tile radius from its' master.
+Players now start as human and are no longer displayed the Race Gump on creation.
+Carpet Shadows no longer appear above carpets when at ground level.
+
+0.1.2
+Guards now call of assistance when at low levels of health.
+Staff may now toggle whether or not they are recognized by the corpse production process.
+Pets will now refuse to attack guards out of fear.
+Corrected magery level on wizard type guards.
+Bank Boxes no longer fall to backpacks on knockout.
+
+0.1.3
+Stamina lossed during combat now accounts for armor equipped.
+Fixed the Marksman Perk 'Dead Aim' - now produces proper bonus.
+Increased the speed at which players gain EoC walking, both on-foot and mounted.
+Player combat accuracy now heavily reduced when not facing an opponent.
+Creatures and Players not facing their opponents are now much easier to hit.
+Dispel field now dispels both moongates when targetting a summoned moongate.
+Reduced shapeshifter and ogre's race ability delays.
+Player Factions
+Unique Surname Registry
+
+0.1.4
+Creatures no longer preform alignment checks outside a sixteen tile range of another mobile.
+Aligned creatures no longer target non-aggressors within alignment thresholds.
+Vendors now return proper amounts when converting currency.
+
+0.1.5
+Food Decay no longer cycles when players are in the process of logging-in.
+Townhouse signs now assume a more appropriate height on creation.
+Console no longer displays packet ID's of incoming clients.
+Assassination contracts now display the lowest possible contract value (60,000 copper).
+Ferry captains no longer spawn with hammers.
+Reduced the three Lich type's base damage; increased ancient lich's base health.
+Ferry captains no longer offer voyage to every port.
+Unemployed tillermen no longer accept orders from strangers.
+Races are no longer reverted back to their default bodyvalue on restart.
+Reduced the time it takes to complete a ferry trip by 33%
+Players are now invulnerable during ferry trips.
+Corrections made to formula for stamina-loss when running.
+Shoes now provide 4% energy resist (some provide more).
+Increased the base physical resistance of all metal armors.
+Reduced the base electrical resistance for all metal armors.
+Players no longer produce double emotes when speaking a language other than common.
+Leggings now effect stamina lost when running more than other equipment.
+Increased the speed at which players with low health regain stamina by 33%
+Decreased the weight of platemail arms from 15 to 12 stones.
+Stamina now begins regenerating as soon as a player stops running.
+
+0.1.6
+Increased health of ettin and ogre types.
+Increased ettin's base strength and damage.
+Lowered Ogre Lord's base strength.
+Dramatically increased the health of all dragon types.
+Dragons are no longer tamable.
+Individual skillcaps can no longer be raised above 125.0 with Essence of Character.
+Skillcaps now cost 20,000 EoC per skillpoint to raise.
+
+0.1.7
+Players must now be within one tile of a ferry captain to interact.
+The ferry system no longer works for players without backpacks. (/Crash)
+Sailing memberships now cost 5,000 copper.
+Players paying ferry captains with copper will now arrive at the same time as a member.
+Pets may now properly travel via ferry with their masters.
+Pets are now invulnerable during ferry travel.
+Sailing Membership cards now appear in the proper hue on the vendor's sell gump.
+Increased maximum cost of ferry trips by 100 copper.
+Players regain ability to learn meditation passively.
+Stamina loss when running now accounts for inclines.
+Base stamina lost when running reduced by 33%
+Decreased the speed at which mounts lose stamina by a fraction.
+Herding and AnimalLore now increases a player's maximum followers.
+
+0.1.8
+Ferry travel time is no longer displayed.
+Ferries now use a different forumla to calculate cost.
+Steeds mounted after embarking on a ferry ride no longer remain invulnerable.
+The Marid race has replaced the elemental race.
+Increased the chance for a blow to damage armor.
+Players regain the ability to cook food via double-click.
+Reduced the speed at which players and mounts lose stamina running by 33%
+Creature teams now override creature alignments.
+
+0.1.9
+Lowered karma ranges for alignment based on current creature karma levels.
+Players may now immediately take beneficial and  negative action after recovering from a knock-out.
+Upon knockout the player's screen will now appear black.
+Courageous' LOS is now working properly (at version 1.4b)
+
+0.2.0
+Direction no longer effects the accuracy of opponents occupying the same tile.
+LOS Now works on the map of Backtrol.
+Modified run fatigure algorithm. (/Crash)
+Players now start with 60 in each stat (as opposed to 50).
+Lowered Terathan race's strength cap.
+Lowered the shapeshifter race's intelligence cap.
+Stamina lossed when swinging a weapon no longer accounts for all layers.
+Increased the reduction % strength provides to stamina lossed on-swing.
+Gloves now increase fist damage based on weight.
+Pugilist's concussion ability no longer occurs on miss.
+Players no longer receive partial damage when dodging.
+Modified fall-damage algorithm.
+Increased the amount of silver and copper a player starts with.
+Players now regenerate stamina more quickly when at low levels.
+
+0.2.1
+Players may now have up to 4 characters per account by default.
+Characters may now be deleted after 24 hours of creation.
+Increased the speed at which mana and stamina regenerate by 10%
+Bandages now heal damage through poison but can not cure it.
+Drastically reduced the amount of time spent KO'd based on k.o count.
+Energy vortex's and bladespirits will now attack the strongest nearby opponent.
+Guards are no longer effected by alignments.
+Skill scrolls now increase skills to a maximum of 90.
+The server console now displays login/logout times.
+Tamed creatures are no longer affected by alignments.
+Increase the rate of skillgain by 33%
+Silver no longer display the name 'silver coin' with amounts greater than 1.
+Pugilist dodge ability reduced by 8%
+Added exception handling to the perk system. (/crash)
+Weapons, Armor, Shields, Clothing, and Jewelery now display properties once identified.
+
+0.2.1a
+Players may now have 2 accounts per IP.
+Jewelry with resistances will now have to be identified.
+All items now construct with a default state of unidentified.
+Increased the overall difficulty of identifying items.
+Players must now wait three days after creation before deleting a character.
+Increased rate of skillgain another 25%
+Players are now informed of how many seconds they will remain unconscious.
+
+0.2.1b
+Increased the minimum chance to gain a skill to 3%
+Skillcheck now provides gain chances based on skill level.
+Increased the chance a player has of gaining a skill upon successful use.
+Skill scrolls now provide new players with 500.0 initial skill points.
+The chance to gain in a skill under 10.0 is now 50%
+
+0.2.2
+Reduced the amount of time spent knocked out by 66%
+Knockout Counts now cost 1,500 EoC to remove.
+Players now receive a 13-15 second grace period after recovering from a knockout.
+The Server now listens to multiple ports.
+Corpses are now removed upon knockout recovery if empty.
+Reduced the rate at which creatures regain health (based on strength) by 25%
+ItemID wands now work on jewelry and clothing.
+Increased the price of ItemID wands from mage vendors.
+Reduced the amount of loot found on ancient liches.
+Increased the amount of loot found on dragon-types.
+
+0.2.2a
+Players can now gain skills past a level of 66.7
+Players now spawn on an unused facet.
+Players may now purchase goods from Ethereals using EoC.
+Player Market temporarily disabled until further notice.
+Reduced the overall speed of skillgain by 33%
+
+0.2.2b
+Increased overall spelldamage based on evaluating intelligence.
+Reduced the spell damage multiplier for creatures by 50%
+Increased the priority of house regions.
+Converted town housing back to AOS style housing.
+Soul Stones no longer allow the skill reduction buttons to be clicked with a skill level of 0. (/crash)
+Soul stones no longer allow players to increase skills by 5 points at a time.
+
+0.2.3
+Added exception handling to the beastmaster's regen perk. (/crash)
+Added faction null-check to Guards OnDeath method. (/crash)
+Added type-check to Locksmith kits on install/uninistall. (/crash)
+Locksmith kit now produces noise when installing or uninstalling a door lock.
+Reduced the amount of time players must wait to re-use stealth.
+Added anti-macro logic to the EOC generation method for casting spells.
+Mobiles now deactivate in unused sectors.
+Server no longer allows players to use more than 2 accounts at a time.
+Added anti-macro logic to the eoc generation method for skilluse.
+Removed stealth messages for accesslevels above player.
+Crash guard now works properly.
+Players may no longer mount hitched pets.
+
+0.2.3a
+Players now start with 75 in each stat.
+Players now start with an overall stat-cap of 325.
+Players now start infront of the Inn at Raivac.
+Added exception handling to anti-macro logic in EOC generation.
+Language translator now obtains text via HTTPS.
+
+0.2.3b
+Beastmaster stamina regen perk returns proper values.
+Ferries now check mount types when traveling by sea. (/crash)
+
+0.2.4
+New Character Overview Interface.
+Players may now increase attributes from the character overview.
+Players may now increase a skill's level, as opposed to cap, in the character overview.
+Elven bows may no longer be crafted by fletchers.
+Server no longer displays a gump when saving.
+
+0.2.5
+Hunger no longer affects staff members.
+The adventurer perk now has a greater chance to counter hunger & thirst.
+Stealth check no longer affect staff members.
+Staff members no longer lose stamina when running.
+Mounts ridden by staff members no longer lose stamina when running.
+Staff is no longer restricted to marking runes on altars.
+Players may no longer recall between facets.
+Knockouts no longer reduce the health of equipment in a player's backpack.
+Players will no longer automatically regain consciousness when disconnected.
+Staff/Player help chat message gump can now be closed.
+Gate travel can no longer be blocked by objects or mobiles.
+Players may no longer stack moongates.
+Server now checks for players knocked out on restart, automatically reviving them.
+Power Scrolls and part of AOS.cs from RunUO 2.5
+The Dark Father now drops random power scrolls.
+Unholy bones thrown by The Dark Father now return silver instead of gold on carve.
+Removed alpha areas from chat system's send and read message gumps.
+
+0.2.6
+Improved the loot dropped by high-end monsters.
+Stamina and Mana leech now absorb 30% of damage.
+Increased the skill required for active weapon abilities by 10.
+Increased the stamina required to use active abilities based on weight.
+The character overview now allows players to increase skills past 100, based on cap.
+Integrated AOS Artifacts from RunUO 2.5
+AOS Artifacts no longer display Artifact Rarity.
+AOS Artifacts can now be purchased from "Relic Dealers" for 500,000 copper each.
+
+0.2.6a
+Phoenix, Mojarr, and Eryon are all now tamable.
+Removed the Phoenix's life-drain ability.
+Bosses now distribute power-scrolls instead of dropping them in loot.
+Bosses now have a chance of dropping powerscrolls for crafting skills.
+Power scroll distribution no longer depends on facet.
+
+0.2.7
+Begun the process of balancing tamables, based on sub-classes.
+Recall now checks for altars at the recall destination.
+Ornament of the Magi now grants spell-damage increase instead of faster casting.
+Removed two-client per IP restriction due to VPN access conflictions.
+Necromancy and Chivalry no longer appear on powerscrolls.
+Powerscrolls no longer return localized messages.
+BaseRunicTool.ApplyAttributesTo now supports BaseClothing.
+The base bow class' resource no longer defaults to iron.
+Players now start with an over-all skillcap of 900.0
+Renamed the Relic Dealer to Runic Dealer.
+Premade runics now cost 100,000 copper.
+The Bracelet of Health now provides 20 bonus hitpoints.
+Added a range-check to the Demon Knight's bone-throw ability.
+Players may now recall into houses provided there's an altar.
+Liches may now equip wand-type weapons.
+Wooden Items no longer default as spellchanneling.
+Weapon and Armor now checks material type on-cast.
+Wooden Weapons and Shields now default with the proper craft resource (wood).
+Wooden Kite Shields are now crafted in the carpentry menu.
+Reduced the price vendors will pay for scrolls.
+Introducing: RuneScribing
+
+0.2.8
+Spellbooks now display AOS properties.
+Reduced the maximum lower mana cost and spelldamage increase when runescribing.
+Armors, Jewelry, Spellbooks, Weapons, and Clothing now display regen properties.
+Inscribing runes now requires 100.0 inscribe as opposed to 120.0
+Runescribing now produces a chance of destroying the target object.
+Scribes now sell runescribing tools.
+Increased the number of powerscrolls distributed when killing Champions.
+Increased the amount of taming required to tame phoenixes.
+Corrected logic error in the recall spell.
+Eryon's must now be subdued before taming.
+Liches may now equip spellbooks.
+Jewelry may now be inscribed with runes.
+All champion type mobiles now automatically dispel summons.
+All champion type mobiles are uncalmable.
+All champion type mobiles now resist most poison.
+All champion type mobiles are now unprovokable.
+EoC OnSpeech now checks access level.
+Added Abyssmal Horror and Darknight Creeper to list of champions.
+Players with 120 or more provocation may now incite pets.
+Reduced the amount of EoC generated from speech.
+EoC generation now accounts for an item's weight when stealing.
+Reduced the amount of EOC gained when speaking.
+Added anti-macro logic to EoC gains on-speech.
+
+0.2.9
+Ethereal reactions caused by failed attempts to inscribe runes now destroys the tool as well.
+Increased the price of runebooks sold by scribes.
+Increased the price of rune-scribing tools.
+Dark Father bone-throw range increased.
+Reduced the amount of runescribing points players receive based on inscription.
+Lowered the required incription for using runescribing tools to 80.0
+
+0.3.0
+Food now decays over the course of five days.
+Food suffering from high levels of rot will poison players and change colors.
+Scribes no longer sell easle and brush kits.
+Reduced attribute multipliers and caps.
+Server name now "Project: Mend"
+Weapons, Armor, Shields, Jewelry, And Clothing no longer display attributes on hover.
+Items with magical properties will now display the "Runic" property.
+Weapons, armor, shield, and clothing no longer display durability rating.
+Identified weapons no longer display slayer names, poison charges, or crafter.
+Items no longer display loot type.
+Mounts now take damage when ridden beyond 0 stamina.
+Mounts will now dismount riders at random when below 10% max stamina.
+Mounts can no longer be mounted at below 66% max health.
+Mounts can now be injured, becoming immobile, requiring veterinarian attention.
+Players with veterinary skill can now attempt to heal injuries with sewing kits.
+Attempting to heal mount injuries produces a chance to kill mounts.
+
+
+TODO:
+Investigate Dragoon's Longarm perk.
+Make field spells effect everyone, regardless of notoriety
+Ore stacks improperly - incorrect Itemid
+Reevaluate the arcanite's 5th
+Plant Bowl's Cliloc
+Buckets should refill water pitchers
+Address the mysterious scroll on vendors & in craft.
+
+--
+
+Races need to alter overall statcap
+Buckets should refill water pitchers
+Get rid of the random ecounters engine
+
+---
+
+Mobiles should be able to guard objects.
+Need healer ai's that heal their controlling mobile & friends
+Need Mercenaries
+Liche summons have instances where they don't disapear after a certain time (restart?)
+Polymorph needs new mobiles that grant bonuses.
+Summon creature needs new, stronger summons.
+Reduce the time on bladespirt.
+
+---
+
+Flying carpets need the wrap function.
+Flying carpets shouldn't be able to fly over black tiles.
+Tents need to check placement.
+Life/Death?
+Resources/Craft
+Armslore / Gump?
+ItemID Rename Gump
+Need to change Cliloc to say cp instead of gp
+HEaler AI needs to heal players?
+Cannons need a control gump
+Languages need an overview gump
+Studded armor should allow full med.
+Need currency converting mobile.
+Need to edit cliloc on follower limit ("You have too many followers" should be "You can not control this many followers")
+Summon creature needs new, selectable summons.
+Carpets need to serialize entities
+
+
+T.B.E -
+Crash on Market Gump
+Flying carpets seem to be pushing server usage to 50% (from 5-20)
+Can't access the account class from messagepump.cs
+
